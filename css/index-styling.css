@@ -21,3 +21,16 @@
 .review{
     background-color: #D7D6D6;
 }
+
+.middle{
+    background-color: #51783F;
+}
+
+.background{
+    background-image: url("../img/Untitled\ design.png");
+}
+
+.images{
+    width: 50%;
+    height: 50%;
+}
