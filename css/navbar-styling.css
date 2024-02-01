@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #2C302E;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.disabled{
+    color: white;
+}

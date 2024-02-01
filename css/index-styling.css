@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.index-body{
+    background-color: #51783F;
+    overflow-x: hidden;
+}
+
+.description{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.reviews{
+    text-align: center;
+}
