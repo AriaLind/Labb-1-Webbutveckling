@@ -5,6 +5,10 @@
     overflow-x: hidden;
 }
 
+.bg-secondary{
+    background-color: #51783F;
+}
+
 .description{
     font-family: 'Lobster', cursive;
     text-align: center;
@@ -12,4 +16,8 @@
 
 .reviews{
     text-align: center;
+}
+
+.review{
+    background-color: #D7D6D6;
 }
