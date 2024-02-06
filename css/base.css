@@ -11,3 +11,7 @@
   font-family: "Lobster", cursive;
   text-align: center;
 }
+
+.btn-dark{
+    background-color: #E07F00;
+}

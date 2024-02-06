@@ -3,13 +3,37 @@ function Pizza(name, price){
     this.price = price;
 }
 
-const kebabPizza = new Pizza("Kebab Pizza", 5.0);
+const kebab = new Pizza("Kebab Pizza", 5.0);
+const salami = new Pizza("Salami Pizza", 5.0);
+const calzone = new Pizza("Calzone", 5.0);
+const margherita = new Pizza("Margherita Pizza", 5.0);
+const hawaiian = new Pizza("Hawaiian Pizza", 5.0);
 
 const cart = [];
 
 if (document.getElementById('kebabButton') !== null){
     const kebabButton = document.getElementById('kebabButton');
-    kebabButton.addEventListener('click', function() {addToCart(kebabPizza)});
+    kebabButton.addEventListener('click', function() {addToCart(kebab)});
+}
+
+if (document.getElementById('salamiButton') !== null){
+    const salamiButton = document.getElementById('salamiButton');
+    salamiButton.addEventListener('click', function() {addToCart(salami)});
+}
+
+if (document.getElementById('calzoneButton') !== null){
+    const calzoneButton = document.getElementById('calzoneButton');
+    calzoneButton.addEventListener('click', function() {addToCart(calzone)});
+}
+
+if (document.getElementById('margheritaButton') !== null){
+    const margheritaButton = document.getElementById('margheritaButton');
+    margheritaButton.addEventListener('click', function() {addToCart(margherita)});
+}
+
+if (document.getElementById('hawaiianButton') !== null){
+    const hawaiianButton = document.getElementById('hawaiianButton');
+    hawaiianButton.addEventListener('click', function() {addToCart(hawaiian)});
 }
 
 const cartItemName = document.getElementById('cart-item-name');
