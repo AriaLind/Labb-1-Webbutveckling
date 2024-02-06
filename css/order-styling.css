@@ -1,0 +1,16 @@
+.pizza-info {
+    margin-bottom: 20px; /* Add margin between each pizza info section */
+  }
+  
+  .pizza-content {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Align items vertically in the flex container */
+  }
+  
+  .pizza-content p {
+    flex: 1; /* Let the paragraph take up remaining space */
+  }
+  
+  .pizza-content button {
+    margin-left: 10px; /* Add spacing between the paragraph and the button */
+  }
