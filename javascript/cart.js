@@ -1,10 +1,20 @@
-let cart = [];
+const cart = [];
 
-function addToCart(product){
-    cart.push(product);
-    console.log("Item added to cart:", product);
-}
+const cartItemName = document.getElementById('cart-item-name');
+const cartItemPrice = document.getElementById('cart-item-price');
 
-const kebabButton = document.getElementById('kebabButton');
+cart.forEach(item => {
+    const itemElement = document.createElement('div');
+    const nameElement = document.createElement('span');
+    const priceElement = document.createElement('span');
 
-kebabButton.addEventListener('click', function() {addToCart(kebabPizza)});
+    nameElement.textContent = item.name;
+    priceElement.textContent = item.price.toFixed(2);
+
+    itemElement.appendChild(nameElement);
+    itemElement.appendChild(document.createTextNode(' - $'));
+    itemElement.appendChild(priceElement);
+    itemElement.appendChild(document.createElement('br'));
+
+    cartItemName.appendChild(itemElement);
+});

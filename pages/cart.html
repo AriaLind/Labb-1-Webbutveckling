@@ -12,10 +12,9 @@
     />
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../css/navbar-styling.css" />
-    <link rel="stylesheet" href="../css/order-styling.css" />
+    <link rel="stylesheet" href="../css/cart-styling.css" />
     <script src="../javascript/cart.js" defer></script>
-    <script src="../javascript/addToCart.js" defer></script>
-    <script src="../javascript/pizzas.js" defer></script>
+    <script src="../javascript/pizzas.js"></script>
   </head>
   <body class="base-body">
     <script
@@ -46,7 +45,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link"
                   aria-current="page"
                   href="../pages/order.html"
                   >Order</a
@@ -72,7 +71,7 @@
                 </a>
                 <li class="nav-item">
                   <a
-                    class="nav-link"
+                    class="nav-link active"
                     aria-current="page"
                     href="../pages/cart.html"
                     >Cart</a
@@ -105,67 +104,19 @@
     </div>
 
     <div class="row text-center p-3">
-      <h1>Our Pizzas</h1>
+      <h1>Cart</h1>
     </div>
 
     <div class="row">
       <div class="col"></div>
-      <div class="col">
+      <div class="col cart-background rounded">
         <section>
-          <div class="pizza-info">
-            <h2>Kebab Pizza</h2>
-            <div class="pizza-content">
-              <p>
-                Kebab meat, Red onion, Bell peppers, Tomatoes, Jalapeños,
-                Mozzarella cheese, Pizza sauce or tomato sauce, Kebab sauce or
-                garlic sauce
-              </p>
-              <button class="btn btn-dark" id="kebabButton">Add to cart</button>
-            </div>
-          </div>
-          <div class="pizza-info">
-            <h2>Salami Pizza</h2>
-            <div class="pizza-content">
-              <p>
-                Salami, Mozzarella cheese, Tomato sauce or pizza sauce, Red
-                onion, Bell peppers, Black olives (optional), Mushrooms
-                (optional), Fresh basil (optional)
-              </p>
-              <button class="btn btn-dark">Add to cart</button>
-            </div>
-          </div>
-          <div class="pizza-info">
-            <h2>Calzone</h2>
-            <div class="pizza-content">
-              <p>
-                Salami, Ricotta cheese, Mozzarella cheese, Tomato sauce or
-                marinara sauce, Black olives (optional), Mushrooms (optional),
-                Fresh spinach (optional), Garlic (optional)
-              </p>
-              <button class="btn btn-dark">Add to cart</button>
-            </div>
-          </div>
-          <div class="pizza-info">
-            <h2>Margherita Pizza</h2>
-            <div class="pizza-content">
-              <p>
-                Fresh basil leaves, Mozzarella cheese, Tomato sauce
-              </p>
-              <button class="btn btn-dark">Add to cart</button>
-            </div>
-          </div>
-          <div class="pizza-info">
-            <h2>Hawaiian Pizza</h2>
-            <div class="pizza-content">
-              <p>
-                Pineapple chunks, Ham or Canadian bacon, Mozzarella cheese, Tomato sauce
-              </p>
-              <button class="btn btn-dark">Add to cart</button>
-            </div>
-          </div>
+            <h2 id="cart-item-name"></h2>
+            <p id="cart-item-price"></p>
         </section>
       </div>
       <div class="col"></div>
     </div>
+
   </body>
 </html>
