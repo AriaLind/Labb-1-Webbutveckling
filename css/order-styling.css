@@ -14,3 +14,11 @@
   .pizza-content button {
     margin-left: 10px;
   }
+
+  .cart-background{
+    background-color: #DAD6D6;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
