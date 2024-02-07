@@ -4,3 +4,9 @@
     margin: 10px auto 50px auto;
     display: block;
 }
+
+.foot {
+    background-color: #E07F00;
+    background-image: url(../img/noise.png);
+    color: #dad6d6;
+  }
