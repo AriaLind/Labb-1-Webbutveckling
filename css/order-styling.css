@@ -1,24 +1,29 @@
 .pizza-info {
-    margin-bottom: 20px;
-  }
-  
-  .pizza-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .pizza-content p {
-    flex: 1;
-  }
-  
-  .pizza-content button {
-    margin-left: 10px;
-  }
-
-  .cart-background{
-    background-color: #DAD6D6;
-    padding: 20px;
-    background-image: url(../img/noise.png);
-    color: black;
+  margin-bottom: 20px;
 }
 
+.pizza-content {
+  display: flex;
+  align-items: center;
+}
+
+.pizza-content p {
+  flex: 1;
+}
+
+.pizza-content button {
+  margin-left: 10px;
+}
+
+.pizza-content img {
+  width: 20%;
+  border-radius: 5%;
+  margin: 2%;
+}
+
+.cart-background {
+  background-color: #dad6d6;
+  padding: 20px;
+  background-image: url(../img/noise.png);
+  color: black;
+}

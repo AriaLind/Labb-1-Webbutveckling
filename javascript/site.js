@@ -3,13 +3,11 @@ function Pizza(name, price){
     this.price = price;
 }
 
-const kebab = new Pizza("Kebab Pizza", 5.0);
-const salami = new Pizza("Salami Pizza", 5.0);
-const calzone = new Pizza("Calzone", 5.0);
-const margherita = new Pizza("Margherita Pizza", 5.0);
-const hawaiian = new Pizza("Hawaiian Pizza", 5.0);
-
-const cart = [];
+const kebab = new Pizza("Kebab Pizza", 7.99);
+const salami = new Pizza("Salami Pizza", 6.99);
+const calzone = new Pizza("Calzone", 6.99);
+const margherita = new Pizza("Margherita Pizza", 4.99);
+const hawaiian = new Pizza("Hawaiian Pizza", 5.99);
 
 if (document.getElementById('kebabButton') !== null){
     const kebabButton = document.getElementById('kebabButton');
@@ -40,11 +38,13 @@ const cartItemName = document.getElementById('cart-item-name');
 const cartItemPrice = document.getElementById('cart-item-price');
 const cartTotalPrice = document.getElementById('cart-total-price')
 
+
+let cart = [];
+let totalCost = 0;
+
 async function addToCart(product) {
     cart.push(product);
     console.log("Item added to cart:", product);
-
-    let totalCost = 0;
 
     cart.forEach(item => {
         totalCost += item.price;
@@ -61,7 +61,6 @@ async function addToCart(product) {
 
     itemElement.appendChild(nameElement);
     itemElement.appendChild(document.createElement('br'));
-    itemElement.appendChild(document.createTextNode('$'));
     itemElement.appendChild(priceElement);
     itemElement.appendChild(document.createElement('br'));
 
@@ -69,3 +68,13 @@ async function addToCart(product) {
     cartTotalPrice.textContent = 'Total Cost: $' + totalCost.toFixed(2);
 }
 
+const checkOutButton = document.getElementById('checkOutButton')
+checkOutButton.addEventListener('click', function() {checkOut()})
+
+function checkOut(){
+    cart = [];
+    totalCost = 0;
+
+    cartItemName.innerHTML = "";
+    cartTotalPrice.textContent = 'Total Cost: $' + totalCost.toFixed(2);
+}
