@@ -19,6 +19,7 @@ const hawaiian = new Pizza("Hawaiian Pizza", 5.99);
 //#endregion
 
 //#region EventListeners
+
 const kebabButton = document.getElementById('kebabButton');
 kebabButton.addEventListener('click', function() {addToCart(kebab)});
 
