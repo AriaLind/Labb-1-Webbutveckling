@@ -42,7 +42,7 @@ checkOutButton.addEventListener('click', function() {checkOut()})
 
 //#region Functions
 
-async function addToCart(product) {
+function addToCart(product) {
     const cartItemName = document.getElementById('cart-item-name');
     const cartItemPrice = document.getElementById('cart-item-price');
     const cartTotalPrice = document.getElementById('cart-total-price');
