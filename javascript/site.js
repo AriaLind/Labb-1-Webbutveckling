@@ -1,6 +1,8 @@
-function Pizza(name, price){
-    this.name = name;
-    this.price = price;
+class Pizza{
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+    }
 }
 
 const kebab = new Pizza("Kebab Pizza", 7.99);
