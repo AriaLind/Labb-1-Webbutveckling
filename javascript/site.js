@@ -40,7 +40,6 @@ const cartItemName = document.getElementById('cart-item-name');
 const cartItemPrice = document.getElementById('cart-item-price');
 const cartTotalPrice = document.getElementById('cart-total-price')
 
-
 let cart = [];
 let totalCost = 0;
 
