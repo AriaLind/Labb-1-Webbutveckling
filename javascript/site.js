@@ -43,8 +43,7 @@ checkOutButton.addEventListener('click', function() {checkOut()})
 //#region Functions
 
 function addToCart(product) {
-    const cartItemName = document.getElementById('cart-item-name');
-    const cartItemPrice = document.getElementById('cart-item-price');
+    const cartItemName = document.getElementById('cart-item');
     const cartTotalPrice = document.getElementById('cart-total-price');
     
     cart.push(product);
@@ -71,7 +70,7 @@ function addToCart(product) {
 }
 
 function checkOut(){
-    const cartItemName = document.getElementById('cart-item-name');
+    const cartItemName = document.getElementById('cart-item');
     const cartTotalPrice = document.getElementById('cart-total-price');
 
     cart = [];
