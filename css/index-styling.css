@@ -1,14 +1,12 @@
-
-
 .reviews {
   text-align: center;
-  color: #E07F00;
+  color: #e07f00;
 }
 
 .review {
-  background-color: #DAD6D6;
+  background-color: #dad6d6;
   background-image: url(../img/noise.webp);
-  color: #E07F00;
+  color: #e07f00;
 }
 
 .background {
@@ -21,5 +19,3 @@
   width: 50%;
   height: 50%;
 }
-
-

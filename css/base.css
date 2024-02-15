@@ -11,13 +11,13 @@
 .description {
   font-family: "Lobster", cursive;
   text-align: center;
-  color:#E07F00;
+  color: #e07f00;
 }
 
-.btn-dark{
-    background-color: #E07F00;
+.btn-dark {
+  background-color: #e07f00;
 }
 
-p{
+p {
   font-family: "Open Sans";
 }

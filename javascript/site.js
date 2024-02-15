@@ -50,7 +50,7 @@ const Pizzas = [
     imageAlt: "HawaiianPizza.webp",
     description:
       "Savor the tropical flavors of our Hawaiian Pizza, a delightful blend of sweet and savory. Featuring juicy pineapple chunks, succulent ham or Canadian bacon, and gooey mozzarella cheese atop a luscious tomato sauce base, it's a taste of paradise in every bite. Let the contrasting flavors of sweet pineapple and savory ham transport you to the sunny shores of Hawaii with our Hawaiian Pizza.",
-  }
+  },
 ];
 
 const pizzaDisplay = document.getElementById("pizza-display");

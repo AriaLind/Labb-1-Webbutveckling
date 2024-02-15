@@ -1,12 +1,12 @@
 #map {
-    height: 400px;
-    width: 50%;
-    margin: 10px auto 15px auto;
-    display: block;
+  height: 400px;
+  width: 50%;
+  margin: 10px auto 15px auto;
+  display: block;
 }
 
 .foot {
-    background-color: #E07F00;
-    background-image: url(../img/noise.webp);
-    color: #dad6d6;
-  }
+  background-color: #e07f00;
+  background-image: url(../img/noise.webp);
+  color: #dad6d6;
+}
