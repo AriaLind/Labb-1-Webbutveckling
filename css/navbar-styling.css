@@ -1,20 +1,20 @@
 .navbar {
-  background-color: #2c302e;
-  background-image: url(../img/noise.webp);
+    background-color: #2c302e;
+    background-image: url(../img/noise.webp);
 }
 
 .nav-link {
-  color: #e07f00;
+    color: #e07f00;
 }
 
 .navbar-brand {
-  color: #e07f00;
+    color: #e07f00;
 }
 
 .nav-item {
-  color: #e07f00;
+    color: #e07f00;
 }
 
 .disabled {
-  color: #e07f00;
+    color: #e07f00;
 }

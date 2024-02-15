@@ -147,22 +147,21 @@ checkOutButton.addEventListener('click', function () {
 
 function addToCart(product) {
     totalCost += product.price;
-    
 
     const shoppingCart = document.getElementById('shopping-cart');
 
     const cartItemContainer = document.createElement('div');
     cartItemContainer.id = `${product.name}-item`;
-    cartItemContainer.classList.add('cart-item-container'); 
+    cartItemContainer.classList.add('cart-item-container');
 
     const cartItemText = document.createElement('p');
     cartItemText.textContent = `${product.name} $${product.price}`;
     cartItemText.classList.add('cart-item-text');
-    
+
     const removeItemButton = document.createElement('button');
-    removeItemButton.textContent = "Remove";
-    removeItemButton.classList.add('btn', 'btn-dark', 'btn-sm')
-    removeItemButton.addEventListener("click", function () {
+    removeItemButton.textContent = 'Remove';
+    removeItemButton.classList.add('btn', 'btn-dark', 'btn-sm');
+    removeItemButton.addEventListener('click', function () {
         removeFromCart(product);
     });
 
@@ -180,7 +179,6 @@ function addToCart(product) {
     console.log(cart);
 }
 
-
 function removeFromCart(product) {
     const index = cart.indexOf(product);
     if (index !== -1) {
@@ -191,7 +189,7 @@ function removeFromCart(product) {
         const itemToRemove = document.getElementById(`${product.name}-item`);
         itemToRemove.parentNode.removeChild(itemToRemove);
     }
-    if (cart.length === 0){
+    if (cart.length === 0) {
         totalCost = 0;
     }
     console.log(totalCost);

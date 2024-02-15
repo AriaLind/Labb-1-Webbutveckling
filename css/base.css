@@ -1,23 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .base-body {
-  background-color: #2c302e;
-  overflow-x: hidden;
-  background-image: url(../img/noise.webp);
-  color: #dad6d6;
+    background-color: #2c302e;
+    overflow-x: hidden;
+    background-image: url(../img/noise.webp);
+    color: #dad6d6;
 }
 
 .description {
-  font-family: "Lobster", cursive;
-  text-align: center;
-  color: #e07f00;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #e07f00;
 }
 
 .btn-dark {
-  background-color: #e07f00;
+    background-color: #e07f00;
 }
 
 p {
-  font-family: "Open Sans";
+    font-family: 'Open Sans';
 }

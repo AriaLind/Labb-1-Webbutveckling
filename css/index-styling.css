@@ -1,21 +1,21 @@
 .reviews {
-  text-align: center;
-  color: #e07f00;
+    text-align: center;
+    color: #e07f00;
 }
 
 .review {
-  background-color: #dad6d6;
-  background-image: url(../img/noise.webp);
-  color: #e07f00;
+    background-color: #dad6d6;
+    background-image: url(../img/noise.webp);
+    color: #e07f00;
 }
 
 .background {
-  background-image: url("../img/PizzaBackgroundFlipped.png");
-  background-size: 100%;
-  background-position: center;
+    background-image: url('../img/PizzaBackgroundFlipped.png');
+    background-size: 100%;
+    background-position: center;
 }
 
 .images {
-  width: 50%;
-  height: 50%;
+    width: 50%;
+    height: 50%;
 }
